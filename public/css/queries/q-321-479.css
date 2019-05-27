@@ -1,0 +1,73 @@
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+	/*body{ border-top: solid 5px aqua !important; }*/
+	.wrap { width: 94% !important; }
+	.box{ width: 100%; overflow: hidden; }
+	.box-pdto, .box-one{ width: 100% !important; float: none !important; margin: 0 !important;  }
+	.one-prod { margin: 20px 0 0 0 !important; text-align: center;}
+	.one-prod li{ width: 80% !important; height: auto !important;}
+	.one-prod li figure { width: 100% !important; height: auto !important; float: none; }
+	.one-prod li figcaption { padding: 3%; float: none !important; width: 94% !important; height: auto !important; overflow: hidden; }
+	.one-prod .name-pdto{ width: 100%;  }
+	.one-prod .name-pdto p { height: auto; }
+	.one-prod .add-pdto{ vertical-align: top; margin-top: -30px !important; }
+	.one-prod .price-pdto{ width: 100%; padding: 8px 0 0 4%; float: right; }
+	.box-address li{ width: 100% !important; }
+	
+	.address-list li span{ width: 80% !important; }
+	.title-address input{ width: 83% !important; }
+	
+	.logo{ width: 50%; height: 63px; margin-left: 27%; }
+	.banner{ margin: 20px 0 0 0 !important; }
+	.top-shart{ position: fixed; z-index: 9; top: 3%; left: 0; background: #560497 url(../../img/shop-cart-icon.png) no-repeat; background-position: 20px center; padding: 10px 10px 0 20px; border-radius: 0 5px 5px 0; margin: 0; }
+	.top-shart span{ margin: -13px 0 0 -5px; }
+	.navmob{ display: block; top: 3%; right: 2%; }
+	.nav-top{ display: none; text-align: left; margin: 0 !important; width: 100% !important; clear: both; }
+	.nav-top li{ display: block; width: 100%; }
+	.nav-top li a{ margin-left: 0; padding: 0 15px; border-radius: 0; height: 48px; line-height: 48px; }
+	.aside-left{ width: 100% !important; float: none !important; }
+	.nav-aside{ width: 100%; white-space: nowrap; overflow-y: hidden; overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+	.nav-aside li{ display: inline; }
+	.nav-aside li a{ display: inline-block; }
+	.aside-out .products{ width: 100% !important; white-space: nowrap !important; overflow-y: hidden  !important; overflow-x: scroll  !important; -webkit-overflow-scrolling: touch  !important;}
+	.aside-out .products li{ display: inline !important; }
+	.products li{ width: 100% !important; margin: 0 0 20px 0 !important;  }
+	.products figcaption{ width: 90%; padding:  5%; }
+	.dialog { width: 92% !important; top: 70px; padding: 2em 4% !important; }
+	footer li{ width: 100% !important; text-align: center !important; padding: 1em 0 !important; font-size: 11px; }
+	.phone-footer{ display: none;}
+	.title{ padding: 1em 0 1em 0 !important; }
+	.title h2{ font-size: 1em !important; }
+	.slider-pt li{ width: 90% !important; margin: 0 2% 4% 2% !important;}
+	.slider-pt li figure{ height: 180px;}
+	.action-pdto span{ font-size: 1.2em !important; margin: 0 10px; }
+	.overflow-pdto, .box-pay{ width: 100% !important; }
+	.box-pay{ text-align: center; height: auto !important; }
+	.box-pay button{ font-size: 1em !important; }
+	.type-pay{ width: 100%; }
+	.type-pay, .type-address{ width: 92% !important; padding: 4%; }
+	.type-address { margin: 0 !important; }
+	.overflow-pdto{ height: auto !important; }
+	.box-list{ display: none; }
+	.list-content{ padding: 3% !important; border-radius: 5px !important; }
+	.list-content:nth-child(odd){ background: rgba(255,255,255, 0.1) !important; margin-bottom: 20px !important; }
+	.list-content:nth-child(even){ background: rgba(0,0,0, 0.3) !important; margin-bottom: 20px !important; }
+	.action-buy{ border:none !important; }
+	.list-content li{ width: 98% !important; padding: 0.5em 1% !important;  }
+	.action-buy a{ float: right; margin: 2px 0; padding: 5px 10px !important; height: 33px !important; line-height: 33px !important; }
+	.voucher { margin-top: 65px; clear: both !important; width: 96% !important; padding: 2% !important; }
+	.voucher ul li{ font-size: 12px !important; }
+	.voucher h1{ font-size: 18px !important; }
+	.sello{ margin: 30px 0 0 0 !important; height: 140px;}
+	.dropdown-menu { left: 0px !important; margin: 10px 0 0 0 !important; }
+	.address-box select{ width: 100% !important;}
+	.address-inputs { width: 100% !important; padding: 20px 0 !important;  margin: 10px 0 0 0 !important; }
+	.address-inputs input{ width: 96% !important; padding: 6% 2%!important; margin-bottom: 20px !important; }
+	#infoForm input, #changePassForm input{ padding: 6% 2% !important; width: 96%; }
+	.restaurant iframe, .restaurant .maps { width: 100% !important; height: 200px !important; margin: 0 0 2% 0 !important; float: none !important; }
+	.restaurant p { float: none !important; width: 100% !important; font-size: 0.85em !important; font-weight: 100; }
+	.outstanding, .title-out, .aside-left .bx-pager, .aside-out{ display: none !important; }
+	.name-anch{ width: 40% !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
+	.title-product{ margin: 20px 0; }
+	.banner-01{ background: url(../../img/banner-fk-small.jpg) no-repeat center top !important; height: 200px !important; }
+	.mobile-views{ display: block !important; }
+}

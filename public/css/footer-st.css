@@ -1,0 +1,40 @@
+footer {
+	text-transform: uppercase;
+	padding: 4em 0;
+	margin: 0;
+	overflow: hidden;
+}
+footer ul{
+	font-size: 0;
+	text-align: center;
+}
+footer li:nth-child(1){ text-align: left; }
+footer li:nth-child(3){ text-align: right; }
+footer li{
+	vertical-align: middle;
+	font-size: 16px;
+	display: inline-block;
+	width: 33.3%;
+}
+footer a{ color: #FFF; }
+footer a:hover{ color: #e303fa; }
+footer p{ margin-bottom: 5px; }
+footer .size{ font-size: 1.8em; }
+footer .social{
+	text-align: center;
+}
+footer .social a{
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	margin: 0 5px;
+	background: url(../img/sprite-rrss.jpg);
+	border-radius:46px;
+}
+.ico-facebook{ background-position: -53px !important; }
+.ico-instagram{ background-position: center !important; }
+.ico-linkedin{ background-position:  -159px !important; }
+.ico-google{ background-position: center right !important; }
+.phone-footer{ width: 42px; display: inline-block; margin-bottom: -13px; }
+
+.powered{ font-style: italic; background: #000; font-size: 0.8em; display: inline-block; padding: 5px 10px; font-weight: 100; }

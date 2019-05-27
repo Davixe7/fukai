@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1601px) and (max-width: 1720px) {
+	/*body{ border-top: solid 5px red !important; }*/
+	.products li figure{ height: 180px; }
+	.title-address input{ width: 65% !important; }
+	.address-list li span{ width: 91% !important; }
+}

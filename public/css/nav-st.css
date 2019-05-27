@@ -1,0 +1,84 @@
+.navmob {
+    background: #560497;
+    z-index: 1000 !important;
+    display: none;
+    position: fixed;
+    top: 12%;
+    right: 5%;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 30px;
+    padding: 15px 0 10px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.navmob span {
+    width: 30px;
+    height: 4px;
+    margin: 0 auto 4px auto;
+    display: block;
+    background: #FFF;
+}
+
+/* NAV */
+nav{ text-align: right; }
+.nav-top{
+    display: inline-block;
+    text-align: right;
+    font-size: 0;
+    vertical-align: top;
+}
+.nav-top li{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.nav-top li a:hover, .sel, .dialog-login{
+    background: #560497; 
+}
+.nav-top li a{
+    letter-spacing: 0.03em;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 100;
+    display: block;
+    border-radius: 5px;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 25px;
+    margin-left: 5px;
+}
+.nav-top li a:hover {
+    text-decoration: none;
+}
+.top-shart{ 
+    background: url(../img/shop-cart-icon.png) no-repeat;
+    background-size: 100% auto;
+    vertical-align: middle;
+    font-weight: 600;
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+    margin:  20px 1% 0 0;
+}
+.top-shart span{ background: tomato; color: #FFF;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    float: right;
+    position: absolute;
+    text-align: center;
+    margin: -13px 0 0 -15px;
+    width: 25px; height: 25px; border-radius: 25px; line-height: 25px; 
+}
+.user-ico{
+    margin: -3px 0 0 10px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: url(../img/user.svg) no-repeat;
+    background-size: 100% auto;
+}

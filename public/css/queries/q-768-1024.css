@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	/*body{ border-top: solid 5px blue !important; }*/
+	header{ margin: 4% 0; }
+	.logo{ width: 30%; }
+	nav{ width: 70%; }
+	.wrap{ width: 92% !important; }
+	.title-address input{ width: 83% !important; }
+	.address-list li span{ width: 80% !important; }
+	.address-del{ float: right; }
+	.nav-top{ margin-top: 3px !important; }
+	.nav-top li a { font-size: 13px !important; padding: 5px 6px !important; height: 34px !important; line-height: 34px !important; }
+	.top-shart{ margin-top: 10px; }
+	.aside-left{ width: 100% !important; margin: 0 0 1em 0 !important; }
+	.nav-aside{ width: 100% !important; white-space: nowrap; overflow-y: hidden; overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+	.nav-aside li{ display: inline; }
+	.nav-aside li a{ display: inline-block; }
+	.box-pdto, .box-one{ width: 55% !important; }
+	.aside-out { width: 38% !important; }	
+	.nav-aside{ font-size: 0.9em; }
+	.products li{ width: 100% !important; margin: 0 0 4% 0 !important; }
+	.products li figure{ height: 260px !important; }
+	.address-int{ width: 29% !important;}
+	.address-inputs input{ padding: 3.4% 3% !important; }
+	.slider-pt li figure{ height: 140px !important; }
+	.box-wrap{ overflow: hidden; width: 100%; }
+	.slider-pt li { width: 35% !important; margin: 0 1% 1% 1% !important; }
+	.one-prod li { width: 100% !important; margin: 0 0 3% 0 !important;  }
+	.one-prod li figure{ border-radius: 5px 0 0 5px !important; width: 100% !important; }
+	.one-prod li figcaption{ overflow: hidden; border-radius: 0 5px 5px 0 !important; float: none; width: 90% !important; padding: 3% 5% 5% 5% !important; }
+	figcaption .add-pdto{ margin: 10px 0 0 -20px; }
+	#ctl-actualcount{ margin: 0 -10px 0 0; }
+	.check-out h2{ font-size: 0.8em !important;}
+	.sello{ margin: 20px 0 0 0; }	
+	.outstanding figure{ height: 105px !important; }
+	.outstanding .add-pdto{ margin: -50px 0 0 105px !important; }
+	footer li{ font-size: 12px !important;}
+	.dialog { top: 10px !important; }
+	.restaurant iframe, .restaurant .maps { width: 100% !important; height: 200px !important; margin: 0 0 2% 0 !important; float: none !important; }
+	.restaurant p { float: none !important; width: 100% !important; font-size: 0.85em !important; font-weight: 100; }
+	.voucher { margin-top: 30px; clear: both !important; width: 96% !important; padding: 2% !important; }
+	.voucher ul li{ font-size: 14px !important; }
+	.voucher h1{ font-size: 24px !important; }	
+	.banner-01{ background: url(../../img/banner-fk-med.jpg) no-repeat center; background-size: 100% auto; }
+	.act-pdt{ margin: 0 0 5px 0; float: none; }
+	.mobile-views{ display: none !important; }
+	.slider-pt{ padding: 2% 0 !important; }
+	.overflow-pdto { float: none; width: 96%; padding: 2%; height: auto !important; }
+    .overflow-pdto textarea{ width: 93% !important; }
+    .box-pay{ float: none; width: 96%; padding: 2%; height: auto !important; overflow: hidden; }
+}

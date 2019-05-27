@@ -1,0 +1,21 @@
+<h1>Fukai - Delivery</h1>
+<table>
+    <tr>
+        <td>
+            <strong>Nombre:</strong>
+        </td>
+        <td>{{$name}}</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Email:</strong>
+        </td>
+        <td>{{$email}}</td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Mensaje:</strong>
+        </td>
+        <td>{{$comment}}</td>
+    </tr>
+</table>

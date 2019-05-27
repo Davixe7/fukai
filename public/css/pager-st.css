@@ -1,0 +1,7 @@
+/* PAGINATION LARAVEL */
+.pagination{ overflow: hidden; text-align: center; padding: 1em 0; }
+.pagination li{ display: inline-block !important; border-radius: 3px; }
+.pagination li a, .pagination li span{ display: block; padding: 5px 10px; font-size: 1.1em; color: #FFF; }
+.pagination li a:hover{ background: #e303fa; border-radius: 3px; }
+.pagination li:first-child{ float: left; }
+.pagination li:last-child{ float: right; }

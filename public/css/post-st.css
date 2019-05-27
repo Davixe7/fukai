@@ -1,0 +1,20 @@
+.post{ overflow: hidden; }
+.post li{
+    width: 100%;
+    background: tomato;
+    overflow: hidden;
+}
+.post li figure{ width: 100%; }
+
+.post li figure img { width: 100%; }
+
+/*.post figcaption{
+    background: green;
+    float: left;
+    width: 70%;
+    overflow: hidden;
+}
+.post h2{ color: #7b8587; font-size: 1.2em; }
+.post span{ color: #FFF;}
+
+*/

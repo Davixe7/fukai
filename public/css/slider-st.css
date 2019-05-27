@@ -1,0 +1,29 @@
+..bx-pager{ padding: 1em 0; background: yellow; }
+
+.bx-wrapper, .bx-pager, .bx-pager-item a, .bx-controls-direction{ overflow: hidden; }
+.bx-pager{ text-align: center; }
+.bx-pager-item{ display: inline-block; margin: 0 5px; }
+.bx-pager-item .active{ background: #e303fa !important; }
+.bx-pager-item a{
+  background: #FFF;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  text-indent: -9999px;
+}
+.bx-controls-direction{ margin-top: 10px; }
+.bx-prev, .bx-next{ width: 33px; height: 33px; background: #FFF; text-indent: -999px; }
+.bx-prev{ float: left; background: url(../img/controls.png) no-repeat 0 -32px;}
+.bx-next{ float: right; background: url(../img/controls.png) no-repeat -42px -32px;}
+.bx-prev:hover, .bx-next:hover{ opacity: 0.7; }
+.bx-loading {
+  min-height: 50px;
+  background: url(../img/bx_loader.gif) center center no-repeat #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}

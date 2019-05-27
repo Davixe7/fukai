@@ -1,0 +1,5 @@
+header{ color: #54b2d1;  font-size: 0; }
+.logo, nav{ display: inline-block; vertical-align: middle; }
+.logo{ overflow: hidden; }
+.logo img{ display: inline-block; vertical-align: middle; width: 47%; margin: 0; }
+.logo img:nth-child(2){ margin-left: 4%;}

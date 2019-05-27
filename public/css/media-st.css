@@ -1,0 +1,10 @@
+@import url('queries/q-sizes.css');
+@import url('queries/q-1601-1720.css');
+@import url('queries/q-1360-1600.css');
+@import url('queries/q-1025-1359.css');
+@import url('queries/q-768-1024.css');
+@import url('queries/q-768-1024-landscape.css');
+/*@import url('queries/q-650-767.css');*/
+@import url('queries/q-480-649.css');
+@import url('queries/q-321-479.css');
+@import url('queries/q-320.css');

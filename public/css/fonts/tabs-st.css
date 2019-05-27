@@ -1,0 +1,82 @@
+.box-tab{
+    margin: 1%;
+    overflow: hidden;
+}
+.tab {
+    list-style-type: none;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    background: rgba(0,0,0, 0.2);
+}
+.tab li { display: inline-block; color: #FFF; margin-right: 5px; }
+.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #FFF;
+    border-radius:3px;
+}
+.tab li a:hover { background: rgba(0,0,0, 0.3); color:#FFF;}
+.tab li a:focus, .active {background: #560497;}
+.active:hover{ color: #FFF; }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+.tabcontent h2{ text-transform: uppercase; margin-bottom: 1em; }
+
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.address-box{ overflow: hidden; }
+.address-box select, .address-box input, .add-address{ float: left; }
+.address-box select{ width: 20%; margin:0 1% 0 0 !important;  }
+.address-box input{ padding-top: 1.3% !important; padding-bottom: 1.3% !important;  }
+.add-address, .address-del{
+    vertical-align: top;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 6px #9099b8;
+    color: #9099b8;
+    padding: 0; margin: 3px 0 0 1%; 
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+}
+.address-del{ float: right; margin: -36px 0 0 0 !important; font-size: 17px; }
+.add-address:hover, .address-del:hover{ border:solid 6px #e303fa; color: #e303fa; }
+.address-list{ margin: 2% 0 0 0; }
+.address-list li{ padding: 2em 1em; text-transform: uppercase; }
+.address-inputs{ overflow: hidden; }
+.address-int{ width: 40% !important; float: left !important; margin-right: 1% !important; }
+.address-number{ width: 30% !important; float:left !important; margin-right: 1% !important }
+.address-other{ width: 16% !important; float: left !important; background: red; }
+.address-list li:nth-child(odd){ background: rgba(0,0,0, 0.1); }
+.address-list li:nth-child(even){ background: rgba(0,0,0, 0.3); }
+.save:hover{ background: #e303fa; }
+.save{ margin-top: 20px; padding: 1em; background: #560497; color: #FFF !important; float: right; border-radius: 5px; float: right !important; text-transform: uppercase; }

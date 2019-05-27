@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('reset-st.css');
+@import url('animated-st.css');
+@import url('flex-st.css');
+@import url('header-st.css');
+@import url('nav-st.css');
+@import url('banner-st.css');
+@import url('detail-st.css');
+@import url('radiobutton-st.css');
+@import url('dropdown-st.css');
+@import url('dialog-st.css');
+@import url('footer-st.css');
+@import url('aside-st.css');
+@import url('post-st.css');
+@import url('tabs-st.css');
+@import url('list-st.css');
+@import url('checkout-st.css');
+@import url('products-st.css');
+@import url('voucher-st.css');
+@import url('form-st.css');
+@import url('slider-st.css');
+@import url('pager-st.css');
+@import url('maps-st.css');
+@import url('media-st.css');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFF;
+    background: #2d0041;
+}
+.mobile-views{ display: none; }
+/* SIZES */
+.wrap { width: 90%; margin: 0 auto; overflow: hidden; }
+.box{ width: 100%; overflow: hidden; }
+.aside-left{ width: 18%; float: left; }
+.box-pdto, .box-one{ width: 58%; float: left; margin: 0 2%; overflow: hidden;  }
+.aside-out { width: 20%; float: right; }
+/* TITLES */
+.title { text-transform: uppercase; padding: 2em 0; text-align: center; }
+.title h2{ font-weight: 100; letter-spacing: 0.6em; font-size: 2.3em; }
+/* ABOUT */
+.about{ margin: 0; }
+
+.us{ position: relative; left: 0; border:none; width: 100%; height: 1600px; overflow-y: auto; margin: 0; padding: 0; }
+
+.about figure { margin: 0 2em 1em 0; border-radius: 5px; overflow: hidden; }
+.about p { text-align: justify; }
+/* RESTAURANTES */
+.restaurant { overflow: hidden; }
+.restaurant li { margin-bottom: 2em; overflow: hidden; }
+.restaurant iframe, .restaurant .maps { border: 0; border-radius: 5px; width: 80%; height: 450px; margin: 0 2% 0 0; float: left; }
+.restaurant p { float: right; width: 18%; padding: 0 0 0.5em 0; font-size: 1em; }
+.restaurant p a { color: #FFF; font-size: 1.2em; }
+.restaurant p a:hover { color: #e303fa; text-decoration: underline; }
+.ctl-delivery-local{display: none}
+
+.box-address{ overflow: hidden; }
+.box-address li:nth-child(1){ width: 48%; float: left; }
+.box-address li:nth-child(2){ width: 50%; float: right; }
+
+/*.box-address li h2{ background: rgba(0,0,0, 0.3); text-transform: uppercase; font-weight: 400; padding: 1em; }*/
+/*.box-address li form{ background: rgba(0,0,0, 0.2); padding: 1em; }*/
+
+.title-address{ background: rgba(0,0,0, 0.4); text-transform: uppercase; font-weight: 400; padding: 1em; }
+.title-address input{ width: 60%; padding: 1em !important; margin: 0 1% !important; }
+
+.address-box{ overflow: hidden; }
+.address-box select, .address-box input, .add-address{ float: left; }
+.address-box select{ width: 20%; margin:0 1% 0 0 !important;  }
+
+
+
+
+.back-cart{ color: #7e86ae; display: block; text-align: right; padding-top: 1em; font-size: 0.8em; }
+.add-address, .address-del{
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 3px #9099b8;
+    color: #9099b8;
+    padding: 0; margin: 3px 0 0 1%; 
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+}
+.address-del{ font-size: 17px; }
+.add-address:hover, .address-del:hover{ border:solid 3px #e303fa; color: #e303fa; }
+.address-list{ margin: 0; }
+.address-list li{ width: 94% !important; padding: 1em 3%; text-transform: uppercase; }
+.address-list li span{ width: 92%; display: inline-block; vertical-align: middle; }
+.address-inputs{ overflow: hidden; }
+.address-int{ width: 43.5% !important; float: left !important; margin-right: 1% !important; }
+.address-number{ width: 20% !important; float:left !important; margin-right: 1% !important }
+.address-other{ width: 16% !important; float: left !important; background: red; }
+.address-list li:nth-child(odd){ background: rgba(0,0,0, 0.1); }
+.address-list li:nth-child(even){ background: rgba(0,0,0, 0.2); }
+.save:hover{ background: #e303fa; }
+.save{ margin-top: 20px; padding: 1em; background: #560497; color: #FFF !important; float: right; border-radius: 5px; float: right !important; text-transform: uppercase; }
+
+
+
+.address-placeholder::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #240034 !important;
+}
+.address-placeholder:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #240034 !important;
+    opacity:  1;
+}
+.address-placeholder::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #240034 !important;
+    opacity:  1;
+}
+.address-placeholder:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #240034 !important;
+}

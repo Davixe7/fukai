@@ -1,0 +1,19 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { 
+	/*body{ border-top: solid 5px white !important; }*/
+	.logo{ width: 30%; height: 95px !important; margin: 0 !important; }
+	nav{ width: 68% !important; }
+	.nav-top li a{ font-size: 16px !important; }
+	.one-prod{ width: 100%; }
+	.one-prod li{ width: 100%; }
+	.products{ overflow: hidden !important; }
+	.products li{ width: 47% !important; margin-right: 3% !important; }
+	.products li figure{ height: 190px !important; }
+	.slider-pt li { width: 33% !important; margin: 0 1% 1% 1% !important; }
+	.overflow-pdto textarea{ width: 93% !important; }
+	.box-pdto, .box-one{ width: 64% !important; }
+	.slider-pt{ overflow: scroll !important; }
+	.slider-pt li{ width: 300px !important; margin: 0 1% !important; }
+	.aside-out { width: 32% !important; }
+	.banner-01{ background: url(../../img/banner-fk-med.jpg) no-repeat center top !important; background-size: 100% auto !important; height: 180px !important; }
+	.price{ float: right; margin: -50px 0 0 0; }
+}

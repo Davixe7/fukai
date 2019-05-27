@@ -1,0 +1,21 @@
+aside{ overflow: hidden; }
+.nav-aside{ padding: 0; margin: 0; width: 100%; }
+.nav-aside li{ width: 100%; margin: 0 0 5px 0; }
+.nav-aside li a{
+    text-transform: uppercase;
+    border-top: solid 1px #422555;
+    border-left: solid 1px #200935;
+    border-bottom: solid 1px #200935;
+    display: block;
+    padding: 12px;
+    color: #ccd4eb;
+    font-weight: 100;
+}
+.nav-aside li a:hover{ background: #560497; }
+.nav-aside .sel{ color: #FFF; }
+.title-out{ background: #560497; margin-top: 30px; font-size: 0.9em !important; padding: 10px 0 10px 0; font-weight: 100 !important; text-align: center; letter-spacing: 0.2em; border-radius: 5px 5px 0 0; }
+.outstanding h2{ font-weight: 600; font-size: 1.1em; }
+.outstanding figure{ height: 205px; border-radius: 5px; overflow: hidden; margin-bottom: 10px; margin: 0 !important; }
+.outstanding .action-pdto{ width: 15%; }
+.outstanding figcaption{ background: #560497; border-radius: 0 0 5px 5px; padding: 4%; }
+.outstanding .add-pdto{ margin: 0 20px 0 0px !important; }

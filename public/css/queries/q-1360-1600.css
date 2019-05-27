@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1360px) and (max-width: 1600px) {
+	/*body{ border-top: solid 5px yellow !important; }*/
+	.products li figure{ height: 170px; }
+	.one-prod figure img{ width: 125% !important; }
+	.title-address input{ width: 58% !important; }
+	.address-list li span{ width: 90% !important; }
+	button[id="search-button"] span{ margin-top: -15px !important; }
+	.banner-01{ height: 160px !important; background: #FFF url(../../img/banner-fk-med.jpg) no-repeat center top !important; }
+}

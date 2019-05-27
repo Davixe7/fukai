@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1025px) and (max-width: 1359px){
+	/*body{ border-top: solid 5px green !important; }*/
+	header{ margin: 4% 0 !important; }
+	.products li figure{ height: 160px; }
+	.one-prod figure img{ width: 135% !important; margin-left: -15%; }
+	.slider-pt li { width: 23% !important; }
+	.title-address input{ width: 55% !important; }
+	.address-list li span{ width: 87% !important; }
+	button[id="search-button"] span{ margin-top: -15px !important; }
+}

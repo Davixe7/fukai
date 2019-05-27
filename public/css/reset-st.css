@@ -1,0 +1,37 @@
+*, html, body, div, span, object, iframe, a, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+{
+  margin:0;
+  padding:0;
+  border:0;
+  list-style: none;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent; }
+header, hgroup, nav, article, section, aside, figure, ,figcaption, footer { display:block; }
+figure{ width: 100%; }
+figure img{ width: 100%; }
+a{ text-decoration: none; }
+.msg{
+  text-align: center;
+  margin: 1em 0; 
+  padding: 0.6em 1em;
+  border-radius: 3px;
+}
+.clear{ clear: both; }
+.error{ background: #fbc4c4; color: #900; }
+.succes{ background: #DFF2BF; color: #3f6e0c; }
+.left{ text-align: left; }
+.center{ text-align: center; }
+.right{ text-align: right; }
+.fleft{ float: left; }
+.right { float: right; }
+.w10{ width: 10%; }
+.w20{ width: 20%; }
+.w30{ width: 30%; }
+.w40{ width: 40%; }
+.w50{ width: 50%; }
+.w60{ width: 60%; }
+.w70{ width: 70%; }
+.w80{ width: 80%; }
+.w90{ width: 90%; }
+.w100{ width: 100%; }

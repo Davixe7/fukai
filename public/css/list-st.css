@@ -1,0 +1,21 @@
+.list{ overflow: hidden; font-size: 0; }
+.list li{ display: inline-block; width: 100%; font-size: 15px; }
+.list-content{ font-size: 0; }
+.list-content li, .box-list li{ display: inline-block !important; width: 14.6% !important; margin: 0 !important; padding: 2em 1% !important; overflow: hidden; font-size: 15px; vertical-align: middle; border-bottom:solid 1px #572b7a; text-overflow:ellipsis; white-space: nowrap; }
+.list-content li a{ color: #e303fa; text-decoration: underline; }
+.list-content:hover{ background: rgba(255,255,255, 0.05); }
+.action-buy a:hover{ background: #e303fa;}
+.action-buy a{
+  background: #560497;
+  font-weight: 700;
+  text-decoration: none !important;
+  color: #FFF !important;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 1em;
+  margin: -1em 0;
+}
+.box-list{ background: #5c307d; border-radius: 5px 5px 0 0; font-weight: 700; font-size: 1.1em; }
